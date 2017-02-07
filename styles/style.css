@@ -1,24 +1,13 @@
-/*
-html, body {
-  margin: 0;
-  height: 100%;
-  
-}
 
-p, h1, h2 {
-  font-family: monospace;
-}
-
-line {
-  stroke: black;
-}
-
-path {
-  stroke: black;
-  stroke-width: 2px;
+.axes line{
+  stroke: white;
 }
 
 
-y_axis {
-  stroke: black;
-}*/
+.axes path{
+  stroke: white;
+}
+
+.axes text{
+  fill: white;
+}
