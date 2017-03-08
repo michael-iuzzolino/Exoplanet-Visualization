@@ -21,3 +21,15 @@ Specifically, this means that when the radius channel is set to represent the ra
 
 
 <img src="resources/exovis3.png" width=500></img>
+
+
+# Run It!
+
+1. Download directory and unzip.
+2. `cd` into the root directory.
+3. `python -m http.server 8888`
+4. Navigate via browser to http://localhost:8888/
+5. Explore the app.
+6. When finished, control-c to close the server.
+7. To ensure server process is closed, `ps -fA | grep python`
+  a. If process still running, `kill <process id>`
